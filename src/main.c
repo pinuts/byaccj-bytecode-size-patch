@@ -4,6 +4,7 @@
 
 #ifndef __WIN32__  /*rwj  --  make portable*/
 #include <signal.h>
+#include <unistd.h>
 #else
 #include <dir.h>
 #endif
